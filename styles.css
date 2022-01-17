@@ -14,18 +14,16 @@ nav {
 	background-color: red;
 	padding-right: 10rem;
 	position: fixed;
+	align-items: center;
 }
 
-.navcontainer {
-	display: flex;
-	justify-content: space-between;
-	background-color: red;
-	width: 20%;
-	padding: 2rem;
-}
+
 
 .navlink {
 	font-size: 2rem;
+	margin-left: 3rem;
+	text-decoration: none;
+	
 }
 
 .landingcontainer {
@@ -40,7 +38,6 @@ nav {
 
 .landingsection {
 	
-	height: 50rem;
 	display: flex;
 	width: 100rem;
 	
@@ -49,10 +46,17 @@ nav {
 .landingintro {
 	width: 60%;
 	background-color: blue;
-	padding: 8rem;
+	padding: 4rem 8rem 8rem 8rem;
 	font-size: 3rem;
+	display: flex;
+	justify-content: flex-wrap;
+	flex-direction: column;
 
 }
+
+
+
+
 
 .landingimage {
 	width: 40%;
@@ -60,10 +64,20 @@ nav {
 	background-size: contain;
 }
 
+.aboutcontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: purple;
+	
+	
+}
+
 .aboutme {
-	margin: 20rem;
-	height: 50rem;
+
 	background-color: green;
-	padding: 8rem;
+	padding: 4rem 8rem 8rem 8rem;
 	font-size: 3rem;
+	width: 100rem;
 }

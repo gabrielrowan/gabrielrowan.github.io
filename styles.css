@@ -154,7 +154,7 @@ nav {
 
 .projectsection {
 	width: 60%;
-	background-color: red;
+	background-color: lime;
 	
 }
 
@@ -193,5 +193,25 @@ nav {
 }
 
 
+@media only screen and (max-width: 1350px) {
+	.projecttable {
+		flex-direction: column;
+	}
+	
+	.project {
+		width: 100%;
+	}
+	
+	span {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
 
+	
+
+	
+	
+}
 

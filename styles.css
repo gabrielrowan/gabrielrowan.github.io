@@ -49,9 +49,29 @@ nav {
 	background-color: blue;
 	display: flex;
 	flex-direction: column;
+	padding: 3rem;
+	align-content: center;
+	justify-content: flex-start;
+
+
+}
+
+
+.landingintro h6 {
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+}
+
+.landingintro h1 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	font-size: 8rem;
+}
+
+.landingintro h2 {
+	margin-top: 2rem;
 	font-size: 3rem;
-
-
 }
 
 
@@ -65,15 +85,17 @@ nav {
 }
 
 img {
-	width: 80%;
+	height: 32rem;
+	width: 24rem;
 }
 
 
 .aboutcontainer {
 	display: flex;
 	justify-content: center;
-	width: 100%;
 	background-color: purple;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 	
 	
 }
@@ -83,20 +105,14 @@ img {
 	background-color: green;
 	padding: 4rem 8rem 8rem 8rem;
 	font-size: 3rem;
-	width: 100rem;
+	width: 60%;
+
 	
 }
 
 
-@media only screen and (max-width: 800px) {
-  nav {
-	  justify-content: center;
-  }
-}
 
-
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   
 .landingsection {
 	flex-wrap: wrap;
@@ -112,7 +128,23 @@ img {
 }
 
 img {
-	width: 35%;
+	height: 32rem;
+	width: 24rem;
 }
 
+.landingintro {
+    display: flex;
+    align-items: center;
+    justify-content: center;	
 }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+  nav {
+	  justify-content: center;
+  }
+}
+
+

@@ -178,12 +178,20 @@ nav {
 	width: 33.33%;
 	border: 3px solid black;
 	padding: 1rem;
+	align-items: center;
+	font-size: 2rem;
 	
 }
 
 .project h2 {
-	font-size: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
 }
+
+.project a {
+	padding: 1rem;
+}
+
 
 
 

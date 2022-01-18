@@ -31,28 +31,24 @@ nav {
 .landingcontainer {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	height: 90rem;
-	width: 100%;
 	background-color: pink;
 
 }
 
-
 .landingsection {
 	
 	display: flex;
-	width: 100rem;
-	height: auto;
-	
-	
+	width: 60%;
+	padding-top: 20rem;
+		
 }
 
 
 .landingintro {
 	width: 65%;
 	background-color: blue;
-	padding: 4rem 8rem 8rem 8rem;
+	display: flex;
+	flex-direction: column;
 	font-size: 3rem;
 
 
@@ -61,16 +57,21 @@ nav {
 
 .landingimage {
 	width: 35%;
-	background-image: url("landingimage.jpg");
-	background-size: contain;
-	height: 46rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: yellow;
+
+}
+
+img {
+	width: 80%;
 }
 
 
 .aboutcontainer {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	width: 100%;
 	background-color: purple;
 	
@@ -97,13 +98,21 @@ nav {
 
 @media only screen and (max-width: 600px) {
   
-.landingcontainer {
-  	height: 180rem;
-	
-  }
-  
 .landingsection {
-  	flex-direction: column;
-  }
+	flex-wrap: wrap;
+}
+
+.landingimage {
+	width: 100%;
+	
+}
+
+.landingintro {
+	width: 100%;
+}
+
+img {
+	width: 35%;
+}
 
 }

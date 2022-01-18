@@ -50,7 +50,6 @@ nav {
 	display: flex;
 	flex-direction: column;
 	padding: 3rem;
-	align-content: center;
 	justify-content: flex-start;
 
 
@@ -101,7 +100,6 @@ img {
 }
 
 .aboutme {
-
 	background-color: green;
 	padding: 4rem 8rem 8rem 8rem;
 	font-size: 3rem;
@@ -138,13 +136,54 @@ img {
     justify-content: center;	
 }
 
+nav {
+  justify-content: center;
+}
+
 
 }
 
-@media only screen and (max-width: 900px) {
-  nav {
-	  justify-content: center;
-  }
+.projectcontainer {
+	display: flex;
+	justify-content: center;
+	background-color: pink;
+	padding-top: 20rem;
+	padding-bottom: 20rem;
 }
+
+
+.projectsection {
+	width: 60%;
+	background-color: red;
+	
+}
+
+.projectsection h2 {
+	font-size: 7rem;
+	padding-left: 2rem;
+}
+
+
+.projecttable {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+}
+
+.project {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 33.33%;
+	border: 3px solid black;
+	padding: 1rem;
+	
+}
+
+.project h2 {
+	font-size: 2rem;
+}
+
 
 

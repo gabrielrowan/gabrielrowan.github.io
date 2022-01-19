@@ -128,6 +128,7 @@ span h2 {
 	text-align: center;
 }
 
+
 .project h2 {
 	margin-top: 2rem;
 	margin-bottom: 3rem;
@@ -145,6 +146,10 @@ span h2 {
 	
 	.project {
 		width: 100%;
+	}
+	
+	.specificProject {
+		border-bottom: 0;
 	}
 	
 	span {
@@ -207,6 +212,10 @@ span h2 {
 	
 	.landingIntro {
 		padding: 2.5rem;
+	}
+	
+	.landingIntro h2 {
+		font-size: 2.5rem;
 	}
 	
 	.aboutMe {

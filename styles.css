@@ -43,12 +43,11 @@ nav {
 	background-color: #5CDB95;
 	display: flex;
 	flex-direction: column;
-	padding: 3rem;
 	justify-content: flex-start;
+	padding: 11rem 3rem;
 }
 
 .landingIntro h6 {
-	padding-top: 1rem;
 	margin-bottom: 1rem;
 	font-size: 2rem;
 }
@@ -87,8 +86,8 @@ img {
 
 .aboutMe {
 	background-color: #5CDB95;
-	padding: 4rem 8rem 8rem 8rem;
-	font-size: 3rem;
+	padding: 3rem;
+	font-size: 2.5rem;
 	width: 60%;
 }
 
@@ -104,9 +103,9 @@ img {
 	background-color: #5CDB95;	
 }
 
-span h2 {
+span h1 {
 	font-size: 7rem;
-	padding-left: 2rem;
+	padding-left: 3rem;
 }
 
 .projectTable {
@@ -137,6 +136,35 @@ span h2 {
 .project a {
 	padding: 1rem;
 }
+
+.contactContainer {
+	display: flex;
+	justify-content: center;
+	background-color: pink;
+	padding-bottom: 10rem;
+}
+
+.contactSection {
+	width: 60%;
+	background-color: #5CDB95;
+	padding-left: 3rem;
+}
+
+.contactSection h1 {
+	font-size: 7rem;
+}
+
+.contactSection p {
+	font-size: 2.5rem;
+}
+
+.LinkedInButton {
+	padding: 1rem;
+	margin-left: 3rem;
+	font-size: 3rem;
+	margin-bottom: 3rem;
+}
+
 
 @media only screen and (max-width: 1350px) {
 	
@@ -178,7 +206,8 @@ span h2 {
     	display: flex;
     	align-items: center;
     	justify-content: center;
-		width: 100%;	
+		width: 100%;
+		padding: 5rem 3rem;	
 	}
 	
 	.landingContent {

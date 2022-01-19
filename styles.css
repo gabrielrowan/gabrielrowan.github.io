@@ -11,7 +11,7 @@ nav {
 	height: 6rem;
 	display: flex;
 	justify-content: flex-end;
-	background-color: red;
+	background-color: #05386B;
 	padding-right: 10rem;
 	position: fixed;
 	align-items: center;
@@ -21,9 +21,11 @@ nav {
 	font-size: 2rem;
 	margin-left: 3rem;
 	text-decoration: none;	
+	color: white;
 }
 
 .landingContainer {
+	display: #EDF5E1;
 	display: flex;
 	justify-content: center;
 	background-color: pink;
@@ -38,7 +40,7 @@ nav {
 
 .landingIntro {
 	width: 65%;
-	background-color: blue;
+	background-color: #5CDB95;
 	display: flex;
 	flex-direction: column;
 	padding: 3rem;
@@ -67,7 +69,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: yellow;
+	background-color: #8EE4AF;
 }
 
 img {
@@ -78,13 +80,13 @@ img {
 .aboutContainer {
 	display: flex;
 	justify-content: center;
-	background-color: purple;
+	background-color: pink;
 	padding-top: 10rem;
 	padding-bottom: 10rem;	
 }
 
 .aboutMe {
-	background-color: green;
+	background-color: #5CDB95;
 	padding: 4rem 8rem 8rem 8rem;
 	font-size: 3rem;
 	width: 60%;
@@ -128,7 +130,7 @@ img {
 
 .projectSection {
 	width: 60%;
-	background-color: lime;	
+	background-color: #5CDB95;	
 }
 
 .projectSection h2 {

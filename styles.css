@@ -6,8 +6,6 @@ html {
 	font-size: 62.5%;
 }
 
-
-
 nav {
 	width: 100%;
 	height: 6rem;
@@ -19,68 +17,57 @@ nav {
 	align-items: center;
 }
 
-
-
-.navlink {
+.navLink {
 	font-size: 2rem;
 	margin-left: 3rem;
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 
-.landingcontainer {
+.landingContainer {
 	display: flex;
 	justify-content: center;
 	background-color: pink;
-
 }
 
-.landingsection {
+.landingSection {
 	
 	display: flex;
 	width: 60%;
-	padding-top: 20rem;
-		
+	padding-top: 20rem;	
 }
 
-
-.landingintro {
+.landingIntro {
 	width: 65%;
 	background-color: blue;
 	display: flex;
 	flex-direction: column;
 	padding: 3rem;
 	justify-content: flex-start;
-
-
 }
 
-
-.landingintro h6 {
+.landingIntro h6 {
 	padding-top: 1rem;
 	margin-bottom: 1rem;
 	font-size: 2rem;
 }
 
-.landingintro h1 {
+.landingIntro h1 {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	font-size: 8rem;
 }
 
-.landingintro h2 {
+.landingIntro h2 {
 	margin-top: 2rem;
 	font-size: 3rem;
 }
 
-
-.landingimage {
+.landingImage {
 	width: 35%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: yellow;
-
 }
 
 img {
@@ -88,62 +75,50 @@ img {
 	width: 24rem;
 }
 
-
-.aboutcontainer {
+.aboutContainer {
 	display: flex;
 	justify-content: center;
 	background-color: purple;
 	padding-top: 10rem;
-	padding-bottom: 10rem;
-	
-	
+	padding-bottom: 10rem;	
 }
 
-.aboutme {
+.aboutMe {
 	background-color: green;
 	padding: 4rem 8rem 8rem 8rem;
 	font-size: 3rem;
 	width: 60%;
-
-	
 }
-
-
 
 @media only screen and (max-width: 1200px) {
   
-.landingsection {
-	flex-wrap: wrap;
-}
+	.landingSection {
+		flex-wrap: wrap;
+	}
 
-.landingimage {
-	width: 100%;
-	
-}
+	.landingImage {
+		width: 100%;	
+	}
 
-.landingintro {
-	width: 100%;
-}
+	img {
+		height: 32rem;
+		width: 24rem;
+	}
 
-img {
-	height: 32rem;
-	width: 24rem;
-}
+	.landingIntro {
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+		width: 100%;	
+	}
 
-.landingintro {
-    display: flex;
-    align-items: center;
-    justify-content: center;	
-}
-
-nav {
-  justify-content: center;
-}
-
+	nav {
+  	  	justify-content: center;
+	}
 
 }
 
-.projectcontainer {
+.projectContainer {
 	display: flex;
 	justify-content: center;
 	background-color: pink;
@@ -151,20 +126,17 @@ nav {
 	padding-bottom: 20rem;
 }
 
-
-.projectsection {
+.projectSection {
 	width: 60%;
-	background-color: lime;
-	
+	background-color: lime;	
 }
 
-.projectsection h2 {
+.projectSection h2 {
 	font-size: 7rem;
 	padding-left: 2rem;
 }
 
-
-.projecttable {
+.projectTable {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -180,7 +152,6 @@ nav {
 	padding: 1rem;
 	align-items: center;
 	font-size: 2rem;
-	
 }
 
 .project h2 {
@@ -192,9 +163,8 @@ nav {
 	padding: 1rem;
 }
 
-
 @media only screen and (max-width: 1350px) {
-	.projecttable {
+	.projectTable {
 		flex-direction: column;
 	}
 	
@@ -207,11 +177,5 @@ nav {
 		justify-content: center;
 		align-items: center;
 	}
-	
-
-	
-
-	
-	
 }
 

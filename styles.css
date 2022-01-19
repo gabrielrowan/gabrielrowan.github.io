@@ -77,7 +77,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #8EE4AF;
+	background-color: #EDF5E1;
 }
 
 img {
@@ -146,6 +146,9 @@ span h1 {
 
 .project a {
 	padding: 1rem;
+	background-color: #05386B;
+	color: #EDF5E1;
+	text-decoration: none;
 }
 
 .contactContainer {
@@ -253,6 +256,7 @@ span h1 {
 	}
 }
 
+
 @media only screen and (max-width: 600px) {
 	
 	.landingSection {
@@ -281,5 +285,16 @@ span h1 {
 	span h2 {
 		font-size: 5rem;
 	}	
+	
+	.contactSection {
+		width: 80%;
+		padding: 2.5rem;
+	}
+	
+	.contactSection p, .contactSection a {
+		font-size: 1.5rem;
+	}
+	
+
 }
 

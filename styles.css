@@ -211,11 +211,7 @@ footer p {
 		border-bottom: 0;
 	}
 	
-	span {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -263,6 +259,12 @@ footer p {
 	
 	.contactSection {
 		text-align: center;
+	}
+	
+	span {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
 

@@ -125,6 +125,7 @@ span h2 {
 	padding: 1rem;
 	align-items: center;
 	font-size: 2rem;
+	text-align: center;
 }
 
 .project h2 {
@@ -174,6 +175,10 @@ span h2 {
     	justify-content: center;
 		width: 100%;	
 	}
+	
+	.landingContent {
+		text-align: center;
+	}
 
 	nav {
   	  	justify-content: center;
@@ -186,6 +191,9 @@ span h2 {
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
+		font-size: 2.5rem;
+		padding: 4rem;
+		text-align: center;
 	}
 
 }

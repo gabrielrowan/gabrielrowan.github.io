@@ -186,6 +186,16 @@ span h1 {
 	display: inline;
 }
 
+footer {
+	background-color: #05386B;
+	color: #EDF5E1;
+	font-size: 2rem;
+}
+
+footer p {
+	margin: 0;
+	padding: 1rem;
+}
 
 @media only screen and (max-width: 1350px) {
 	
@@ -310,6 +320,10 @@ span h1 {
 	
 	.emailAddress {
 		font-size: 1.5rem;
+	}
+	
+	footer {
+		font-size: 1rem;
 	}
 
 }

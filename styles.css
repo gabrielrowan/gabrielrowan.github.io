@@ -92,39 +92,10 @@ img {
 	width: 60%;
 }
 
-@media only screen and (max-width: 1200px) {
-  
-	.landingSection {
-		flex-wrap: wrap;
-	}
-
-	.landingImage {
-		width: 100%;	
-	}
-
-	img {
-		height: 32rem;
-		width: 24rem;
-	}
-
-	.landingIntro {
-    	display: flex;
-    	align-items: center;
-    	justify-content: center;
-		width: 100%;	
-	}
-
-	nav {
-  	  	justify-content: center;
-	}
-
-}
-
 .projectContainer {
 	display: flex;
 	justify-content: center;
 	background-color: pink;
-	padding-top: 20rem;
 	padding-bottom: 20rem;
 }
 
@@ -133,7 +104,7 @@ img {
 	background-color: #5CDB95;	
 }
 
-.projectSection h2 {
+span h2 {
 	font-size: 7rem;
 	padding-left: 2rem;
 }
@@ -166,6 +137,7 @@ img {
 }
 
 @media only screen and (max-width: 1350px) {
+	
 	.projectTable {
 		flex-direction: column;
 	}
@@ -179,5 +151,68 @@ img {
 		justify-content: center;
 		align-items: center;
 	}
+}
+
+@media only screen and (max-width: 1200px) {
+  
+	.landingSection {
+		flex-wrap: wrap;
+	}
+
+	.landingImage {
+		width: 100%;	
+	}
+
+	img {
+		height: 32rem;
+		width: 24rem;
+	}
+
+	.landingIntro {
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+		width: 100%;	
+	}
+
+	nav {
+  	  	justify-content: center;
+		padding-right: 0;
+	}
+
+	
+	.aboutMe {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.landingSection {
+		padding-top: 10rem;
+		width: 80%;
+	}
+	
+	.landingIntro {
+		padding: 2.5rem;
+	}
+	
+	.aboutMe {
+		width: 80%;
+		padding: 2.5rem;
+		font-size: 2rem;
+	}
+	
+	.projectSection {
+		width: 80%;
+	}
+	
+	span h2 {
+		font-size: 5rem;
+	}	
 }
 

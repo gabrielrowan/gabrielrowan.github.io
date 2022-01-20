@@ -98,6 +98,10 @@ img {
 	width: 60%;
 }
 
+.aboutMe h1 {
+	font-size: 7rem;
+}
+
 .aboutMe p {
 	margin-bottom: 3rem;
 }
@@ -317,6 +321,10 @@ a:hover {
 		width: 80%;
 		padding: 2.5rem;
 		font-size: 2rem;
+	}
+	
+	.aboutMe p {
+		margin: 2.5rem 1.5rem 2.5rem 1.5rem;
 	}
 	
 	.projectSection {

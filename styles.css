@@ -98,6 +98,10 @@ img {
 	width: 60%;
 }
 
+.aboutMe p {
+	margin-bottom: 3rem;
+}
+
 .projectContainer {
 	display: flex;
 	justify-content: center;
@@ -169,6 +173,11 @@ span h1 {
 
 .contactSection p {
 	font-size: 2.5rem;
+	margin-bottom: 5rem;
+}
+
+.linkedInSentence {
+	margin-top: 5rem;
 }
 
 .linkedInLink {
@@ -236,7 +245,6 @@ a:hover {
 	}
 
 	.landingIntro {
-    	display: flex;
     	align-items: center;
 		width: 100%;
 		padding: 5rem 3rem;	
@@ -254,9 +262,12 @@ a:hover {
 	.aboutMe {
 		display: flex;
 		flex-direction: column;
-		font-size: 2.5rem;
 		padding: 4rem;
 		text-align: center;
+	}
+	
+	.aboutMe p {
+		margin: 2.5rem;
 	}
 	
 	.contactSection {

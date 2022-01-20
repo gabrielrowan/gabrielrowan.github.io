@@ -166,7 +166,7 @@ span h1 {
 .contactSection {
 	width: 60%;
 	background-color: #5CDB95;
-	padding: 3rem;
+	padding: 3rem 3rem 5rem 3rem;
 }
 
 .contactSection h1 {
@@ -182,6 +182,7 @@ span h1 {
 	background-color: #05386B;
 	color: #EDF5E1;
 	font-size: 2.5rem;
+	text-decoration: none;
 }
 
 #emailAddress {
@@ -200,6 +201,10 @@ footer {
 footer p {
 	margin: 0;
 	padding: 1rem;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 @media only screen and (max-width: 1350px) {
@@ -334,6 +339,10 @@ footer p {
 	
 	footer {
 		font-size: 1rem;
+	}
+	
+	.aboutContainer, .projectContainer, .contactContainer {
+		padding-top: 10rem;
 	}
 
 }

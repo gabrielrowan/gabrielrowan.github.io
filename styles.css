@@ -331,9 +331,6 @@ a:hover {
 		width: 80%;
 	}
 	
-	span h2 {
-		font-size: 5rem;
-	}	
 	
 	#emailAddress {
 		font-size: 1.5rem;
@@ -345,6 +342,10 @@ a:hover {
 	
 	.aboutContainer, .projectContainer, .contactContainer {
 		padding-top: 10rem;
+	}
+	
+	.landingIntro h1, span h1, contactSection h1, .aboutMe h1 {
+		font-size: 6rem;
 	}
 }
 

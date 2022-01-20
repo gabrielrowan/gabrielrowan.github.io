@@ -89,8 +89,7 @@ img {
 	display: flex;
 	justify-content: center;
 	background-color: pink;
-	padding-top: 10rem;
-	padding-bottom: 10rem;	
+	padding-top: 15rem;
 }
 
 .aboutMe {
@@ -104,7 +103,7 @@ img {
 	display: flex;
 	justify-content: center;
 	background-color: pink;
-	padding-bottom: 20rem;
+	padding-top: 15rem;
 }
 
 .projectSection {
@@ -160,6 +159,7 @@ span h1 {
 	display: flex;
 	justify-content: center;
 	background-color: pink;
+	padding-top: 15rem;
 	padding-bottom: 10rem;
 }
 
@@ -184,7 +184,7 @@ span h1 {
 	font-size: 2.5rem;
 }
 
-.emailAddress {
+#emailAddress {
 	background-color: #379683;
 	color: #EDF5E1;
 	padding: 2rem;
@@ -292,7 +292,7 @@ footer p {
 		font-size: 2rem;
 	}
 	
-	.emailAddress, .linkedInLink {
+	.linkedInLink {
 		padding: 1rem;
 		font-size: 1.5rem;
 	}
@@ -328,7 +328,7 @@ footer p {
 		font-size: 5rem;
 	}	
 	
-	.emailAddress {
+	#emailAddress {
 		font-size: 1.5rem;
 	}
 	

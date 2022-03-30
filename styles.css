@@ -1,0 +1,425 @@
+:root {
+    --backgroundColor: #16324F;
+    --projectColor: #DCF2FF;
+    --buttonColor:  #C8F8FF;
+    --firstFont: 'Bungee Shade', cursive;
+    --secondFont: 'Open Sans', sans-serif;
+    --lighterButton: #caf4fa;
+}
+
+* { 
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--backgroundColor);
+}
+
+/*Nav Section*/
+nav {
+    background-color: var(--lighterButton);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-family: var(--secondFont);
+    flex-direction: row;
+    font-weight: 400;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+img[src="logo2.svg"] {
+    height: 5rem;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+img[src="logo2.svg"]:hover {
+    animation-name: rotation;
+    animation-duration: 4s;
+}
+
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(359deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+      }
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--backgroundColor);
+}
+
+/*About Section*/
+.about {
+    display: flex;
+    justify-content: center;
+
+}
+.aboutMain {
+    width: 70%;
+    background: var(--projectColor);
+    display: flex;
+    margin: 17rem 10rem 10rem 10rem;
+    box-shadow: -1rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.terminalIcon {
+    font-size: 2rem;
+}
+
+.aboutImage {
+    background-color: black;
+    width: 50%;
+}
+
+.cartoonGabriel {
+    object-fit: contain;
+    width: 100%;
+    height: 66rem;
+}
+
+.aboutDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 2.5rem;
+    font-family: var(--secondFont);
+    font-weight: 400;
+    height: 66rem;
+    overflow: hidden;
+}
+
+.aboutDescription h2 {
+    font-size: 7rem;
+    font-family: var(--firstFont); 
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+}
+
+.aboutDescription h3 {
+    font-size: 2.5rem;
+}
+
+.aboutDescription p {
+    font-size: 2rem;
+    line-height: 3.2rem;
+}
+
+/*Project Section*/
+.projectHeader {
+    padding: 4rem 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.projectHeader h1 {
+    font-size: 7rem;
+    margin: 0.5rem;
+    font-family: var(--firstFont);
+    font-weight: 700;
+    background: var(--projectColor);
+    padding: 1rem 4rem;
+    box-shadow: -1rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.projectMainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.projectMain {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.project p {
+    font-size: 2rem;
+    margin: 10px;
+    line-height: 3.1rem;
+
+}
+
+.sibling-fade { visibility: hidden; }
+/* Prevents :hover from triggering in the gaps between items */
+
+.sibling-fade > * { visibility: visible; }
+/* Brings the child items back in, even though the parent is `hidden` */
+
+.sibling-fade > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+/* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+
+.sibling-fade:hover > * { opacity: 0.4; transform: scale(0.9); }
+/* Fade out all items when the parent is hovered */
+
+.sibling-fade > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; box-shadow: none;}
+/* Fade in the currently hovered item */
+
+.project {
+    padding: 2rem;
+    background-color: var(--projectColor);
+    margin: 3rem;
+    width: 40%;
+    font-family: var(--secondFont);
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    box-shadow: -1rem 1rem rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.projectImage {
+    object-fit: contain;
+    width: 335px;
+    height: 487px;
+
+}
+
+.languagesContainer {
+    font-size: 3rem;
+    padding-top: 0.5rem;
+}
+
+.project h2 {
+    font-size: 3.5rem;
+    font-family: var(--secondFont);
+    font-weight: 400;
+}
+
+.project h3 {
+    font-size: 2.5rem;
+}
+
+.projectPara {
+    margin: 2rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: var(--buttonColor);
+    padding: 0.75rem;
+    font-size: 2rem;
+    border: 0.1rem solid black;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 2.4px 2.4px 3.2px;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.backToTopContainer {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    margin-bottom: 5rem;
+}
+
+.backToTop {
+    font-size: 4rem;
+    padding: 1.2rem 2rem;
+    font-family: var(--secondFont);
+}
+
+/*Footer Section*/
+footer {
+    background-color: var(--lighterButton);
+    font-size: 1.5rem;
+    font-family: var(--secondFont);
+    padding: 0.5rem 0 0.5rem 2.5rem;
+    font-weight: 400;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h5 {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem; 
+    font-size: 3rem;
+    font-family: var(--secondFont);
+    font-weight: 400;
+}
+
+span {
+    margin-left: 1rem;
+}
+
+.linkedInText:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--backgroundColor);
+}
+
+.email {
+    padding-bottom: 0.5rem;
+}
+
+.linkedIn {
+    margin-bottom: 2rem;
+    margin-top: .75rem;
+}
+
+.copyright {
+    font-size: 1.25rem;
+}
+
+a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
+    text-decoration: none;
+    color: black;
+}
+
+.copyrightSection {
+    background-color:var(--lighterButton);
+}
+
+/*Media Queries (High to Low max width)*/
+@media only screen and (max-width: 1250px){
+    /*Decreases font size on about section*/
+    .aboutDescription h2 {
+        font-size: 6rem;
+    }
+
+    .aboutDescription p {
+        font-size: 1.8rem;
+    }
+
+    .terminalIcon {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1145px){
+    /*Changes projects to column*/
+    .projectMain {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 80%;
+        margin: 3rem 0;
+        box-shadow: none;
+    }
+
+    .projectImage {
+        height: 70%;
+        margin-bottom: 2rem;
+    }
+
+    .buttonRow {
+        justify-content: center;
+    }
+
+    button {
+        margin: 1rem;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1120px){
+    /*Changes about section to column */
+    .aboutMain {
+        flex-direction: column;
+        box-shadow: none;
+    }
+    .aboutImage {
+        width: 100%;
+    }
+
+    .aboutDescription {
+        width: 100%;
+    }
+
+    .languagesContainer {
+        font-size: 2.5rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+
+    .aboutDescription p {
+        font-size: 1.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 1070px){
+    /*Switches nav options to right-align*/
+    nav {
+        justify-content: flex-start;
+    }
+}
+
+
+@media only screen and (max-width: 710px){
+
+    .aboutMain {
+        width: 100%;
+        margin: 17rem 2rem 10rem 2rem;
+    }
+
+    .projectMain {
+        width: 100%;
+    }
+
+    .project {
+        width: 90%;
+    }
+
+    /*Decreases project header size*/
+    .projectHeader h1 {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    /*Further decrease about heading*/
+    .aboutDescription h2{
+        font-size: 5rem;
+    }
+}
+
+/*To make about wider, look at .aboutMain (margin and width),*/
+/*To make project section wider, look at .project width and .projectMain width*/

@@ -169,6 +169,7 @@ a:hover {
     margin: 10px;
     line-height: 3.1rem;
 
+
 }
 
 .sibling-fade { visibility: hidden; }
@@ -202,7 +203,7 @@ a:hover {
 }
 
 .projectImage {
-    object-fit: contain;
+    object-fit: cover;
     width: 335px;
     height: 487px;
 

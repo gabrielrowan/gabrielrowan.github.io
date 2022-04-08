@@ -203,10 +203,9 @@ a:hover {
 }
 
 .projectImage {
-    object-fit: cover;
+    object-fit: contain;
     width: 335px;
-    height: 487px;
-
+    height: 454px;
 }
 
 .languagesContainer {

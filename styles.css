@@ -171,6 +171,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 2rem;
+    gap: 4.25rem;
 }
 
 .imageContainer {
@@ -187,6 +188,7 @@ a:hover {
 
 ul {
     list-style-image: url('./Assets/chevron-right-solid.svg');
+    padding-inline-start: 0.5rem;
 }
 
 .sibling-fade { visibility: hidden; }
@@ -202,8 +204,7 @@ ul {
 .project {
     padding: 2rem;
     background-color: var(--projectColor);
-    margin: 3rem;
-    width: 25%;
+    width: 37rem;
     font-family: var(--secondFont);
     font-weight: 400;
     align-items: center;
@@ -302,6 +303,7 @@ span {
 .linkedInText:hover {
     text-decoration: underline;
     text-decoration-color: var(--backgroundColor);
+
 }
 
 .email {
@@ -326,7 +328,7 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
     background-color:var(--lighterButton);
 }
 
-/*Media Queries (High to Low max width)*/
+
 @media only screen and (max-width: 1250px){
     /*Decreases font size on about section*/
     .aboutDescription h2 {
@@ -339,34 +341,6 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
 
     .terminalIcon {
         font-size: 1.5rem;
-    }
-}
-
-@media only screen and (max-width: 1145px){
-    /*Changes projects to column*/
-    .projectMain {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .project {
-        width: 80%;
-        margin: 3rem 0;
-        box-shadow: none;
-    }
-
-    .projectImage {
-        height: 70%;
-        margin-bottom: 2rem;
-    }
-
-    .buttonRow {
-        justify-content: center;
-    }
-
-    button {
-        margin: 1rem;
-        font-size: 2rem;
     }
 }
 
@@ -398,6 +372,7 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
 
 }
 
+
 @media only screen and (max-width: 1070px){
     /*Switches nav options to right-align*/
     nav {
@@ -413,13 +388,6 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
         margin: 17rem 2rem 10rem 2rem;
     }
 
-    .projectMain {
-        width: 100%;
-    }
-
-    .project {
-        width: 90%;
-    }
 
     /*Decreases project header size*/
     .projectHeader h1 {

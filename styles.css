@@ -177,10 +177,16 @@ a:hover {
     height: 45%;
 }
 
-.project p {
+.projectList li {
     font-size: 2rem;
-    margin: 10px;
     line-height: 3.1rem;
+    padding: 1.2rem;
+    margin: 0;
+    
+}
+
+ul {
+    list-style-image: url('./Assets/chevron-right-solid.svg');
 }
 
 .sibling-fade { visibility: hidden; }

@@ -392,6 +392,14 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
     }
 }
 
+@media only screen and (max-width: 1000px){
+
+    .project {
+        width: 70%;
+    }
+}
+
+
 @media only screen and (max-width: 600px){
     /*Further decrease about heading*/
     .aboutDescription h2{
@@ -399,5 +407,4 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
     }
 }
 
-/*To make about wider, look at .aboutMain (margin and width),*/
-/*To make project section wider, look at .project width and .projectMain width*/
+

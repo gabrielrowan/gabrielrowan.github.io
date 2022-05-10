@@ -303,6 +303,42 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
     background-color:var(--lighterButton);
 }
 
+.accordion {
+    background-color: var(--lighterButton);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    font-size: 1.75rem;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: white;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .accordion:after {
+    content: '\25be'; 
+    font-size: 13px;
+    color: black;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: '\25b4'; 
+  }
+
 
 @media only screen and (max-width: 1250px){
     .aboutDescription h2 {

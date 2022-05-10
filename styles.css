@@ -176,7 +176,7 @@ a:hover {
 
 
 .projectList li {
-    font-size: 2rem;
+    font-size: 1.75rem;
     line-height: 3.1rem;
     padding: 1.2rem;
     margin: 0;
@@ -201,7 +201,7 @@ ul {
 .project {
     padding: 2rem;
     background-color: var(--projectColor);
-    width: 40rem;
+    width: 38rem;
     font-family: var(--secondFont);
     font-weight: 400;
     align-items: center;

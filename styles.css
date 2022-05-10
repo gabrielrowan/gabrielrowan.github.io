@@ -62,7 +62,8 @@ a {
     color: black;
 }
 
-a:hover {
+nav a:hover {
+    background-color: white;
     text-decoration: underline;
     text-decoration-color: var(--backgroundColor);
 }
@@ -157,7 +158,6 @@ a:hover {
     gap: 4.25rem;
 }
 
-
 .projectList li {
     font-size: 1.75rem;
     line-height: 3.1rem;
@@ -211,10 +211,6 @@ ul {
     font-weight: 500;
 }
 
-.project h3 {
-    font-size: 2.5rem;
-}
-
 .projectPara {
     margin: 2rem 0.75rem;
     display: flex;
@@ -232,6 +228,7 @@ button {
 
 button:hover {
     box-shadow: rgba(0, 0, 0, 0.2) 2.4px 2.4px 3.2px;
+    background-color: white;
 }
 
 .buttonRow {
@@ -281,6 +278,7 @@ span {
 .linkedInText:hover {
     text-decoration: underline;
     text-decoration-color: var(--backgroundColor);
+    background-color: white;
 }
 
 .email {

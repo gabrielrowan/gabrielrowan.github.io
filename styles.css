@@ -21,7 +21,6 @@ body {
     background-color: var(--backgroundColor);
 }
 
-/*Nav Section*/
 nav {
     background-color: var(--lighterButton);
     width: 100%;
@@ -45,7 +44,6 @@ nav {
 li {
     padding: 1rem;
     margin: 1rem;
-
 }
 
 img[src="./Assets/logo2.svg"] {
@@ -59,19 +57,6 @@ img[src="logo2.svg"]:hover {
     animation-duration: 4s;
 }
 
-@keyframes rotation {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(359deg);
-    }
-
-    100% {
-        transform: rotate(0deg);
-      }
-  }
-
 a {
     text-decoration: none;
     color: black;
@@ -82,7 +67,6 @@ a:hover {
     text-decoration-color: var(--backgroundColor);
 }
 
-/*About Section*/
 .about {
     display: flex;
     justify-content: center;
@@ -139,7 +123,6 @@ a:hover {
     line-height: 3.2rem;
 }
 
-/*Project Section*/
 .projects {
     padding-top: 10rem;
 }
@@ -179,8 +162,7 @@ a:hover {
     font-size: 1.75rem;
     line-height: 3.1rem;
     padding: 1.2rem;
-    margin: 0;
-    
+    margin: 0; 
 }
 
 ul {
@@ -271,7 +253,6 @@ button:hover {
     font-family: var(--secondFont);
 }
 
-/*Footer Section*/
 footer {
     background-color: var(--lighterButton);
     font-size: 1.5rem;
@@ -300,7 +281,6 @@ span {
 .linkedInText:hover {
     text-decoration: underline;
     text-decoration-color: var(--backgroundColor);
-
 }
 
 .email {
@@ -327,7 +307,6 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
 
 
 @media only screen and (max-width: 1250px){
-    /*Decreases font size on about section*/
     .aboutDescription h2 {
         font-size: 6rem;
     }
@@ -342,7 +321,6 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
 }
 
 @media only screen and (max-width: 1120px){
-    /*Changes about section to column */
     .aboutMain {
         flex-direction: column;
         box-shadow: none;
@@ -371,7 +349,6 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
 
 
 @media only screen and (max-width: 1070px){
-    /*Switches nav options to right-align*/
     nav {
         justify-content: flex-start;
     }
@@ -386,7 +363,6 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
     }
 
 
-    /*Decreases project header size*/
     .projectHeader h1 {
         font-size: 6rem;
     }
@@ -401,7 +377,6 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
 
 
 @media only screen and (max-width: 600px){
-    /*Further decrease about heading*/
     .aboutDescription h2{
         font-size: 5rem;
     }

@@ -217,6 +217,7 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
     height: 50%;
+    background-color: #FAFAFA;
 }
 
 button {
@@ -316,7 +317,7 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
 }
 
 .active, .accordion:hover {
-    background-color: white;
+    background-color: #d6faff ;
 }
 
 .panel {
@@ -324,12 +325,12 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
     background-color: white;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: max-height 0.3s ease-out;
   }
 
   .accordion:after {
     content: '\25be'; 
-    font-size: 13px;
+    font-size: 2rem;
     color: black;
     float: right;
     margin-left: 5px;

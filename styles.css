@@ -234,6 +234,7 @@ ul {
     outline: none;
     transition: 0.4s;
     font-family: var(--thirdFont);
+    display: flex;
 }
 
 .active, .accordion:hover {
@@ -249,15 +250,14 @@ ul {
     box-shadow: rgba(0, 0, 0, 0.2) 2.4px 2.4px 3.2px;
   }
 
-  .accordion:after {
+  .accordion::after {
     content: '\25be'; 
     font-size: 2rem;
     color: black;
-    float: right;
     margin-left: 5px;
   }
   
-  .active:after {
+  .active::after {
     content: '\25b4'; 
   }
 

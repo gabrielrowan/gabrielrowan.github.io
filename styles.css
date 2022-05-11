@@ -6,6 +6,9 @@
     --secondFont: 'Open Sans', sans-serif;
     --thirdFont: 'Montserrat', sans-serif;
     --lighterButton: #caf4fa;
+    --evenLighter: #E3FAFD;
+    
+    /* #FAFAFA; */
 }
 
 * { 
@@ -217,19 +220,21 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
     height: 50%;
-    background-color: #FAFAFA;
+    background-color: #ECECEC;
 }
 
 button {
     background-color: var(--buttonColor);
     padding: 0.75rem;
     font-size: 1.5rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid var(--evenLighter);
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2.8px;
+    
 }
 
 button:hover {
     box-shadow: rgba(0, 0, 0, 0.2) 2.4px 2.4px 3.2px;
-    background-color: white;
+    background-color: var(--evenLighter);
 }
 
 .buttonRow {
@@ -326,6 +331,7 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.2) 2.4px 2.4px 3.2px;
   }
 
   .accordion:after {

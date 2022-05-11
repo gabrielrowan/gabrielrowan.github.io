@@ -6,9 +6,7 @@
     --secondFont: 'Open Sans', sans-serif;
     --thirdFont: 'Montserrat', sans-serif;
     --lighterButton: #caf4fa;
-    --evenLighter: #E3FAFD;
-    
-    /* #FAFAFA; */
+    --evenLighter: #f3faff;
 }
 
 * { 
@@ -66,7 +64,7 @@ a {
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: var(--evenLighter);
     text-decoration: underline;
     text-decoration-color: var(--backgroundColor);
 }
@@ -239,7 +237,7 @@ ul {
 }
 
 .active, .accordion:hover {
-    background-color: #d6faff ;
+    background-color: var(--evenLighter);
 }
 
 .panel {
@@ -326,7 +324,7 @@ span {
 .linkedInText:hover {
     text-decoration: underline;
     text-decoration-color: var(--backgroundColor);
-    background-color: white;
+    background-color: var(--evenLighter);
 }
 
 .email {

@@ -6,6 +6,7 @@
     --secondFont: 'Open Sans', sans-serif;
     --thirdFont: 'Montserrat', sans-serif;
     --lighterButton: #caf4fa;
+    --evenLighter: #f3faff;
 }
 
 * { 
@@ -26,10 +27,10 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font-size: 2rem;
-    font-family: var(--secondFont);
+    font-size: 1.75rem;
+    font-family: var(--thirdFont);
     flex-direction: row;
-    font-weight: 400;
+    font-weight: 500;
     position: fixed;
     border-bottom: 1px solid var(--backgroundColor);
     z-index: 10;
@@ -63,7 +64,7 @@ a {
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: var(--evenLighter);
     text-decoration: underline;
     text-decoration-color: var(--backgroundColor);
 }
@@ -102,7 +103,7 @@ nav a:hover {
     justify-content: center;
     width: 50%;
     padding: 2.5rem;
-    font-family: var(--secondFont);
+    font-family: var(--thirdFont);
     font-weight: 400;
     height: 66rem;
     overflow: hidden;
@@ -117,6 +118,7 @@ nav a:hover {
 
 .aboutDescription h3 {
     font-size: 2.5rem;
+    font-family: var(--thirdFont);
 }
 
 .aboutDescription p {
@@ -184,7 +186,7 @@ ul {
     padding: 2rem;
     background-color: var(--projectColor);
     width: 38rem;
-    font-family: var(--secondFont);
+    font-family: var(--thirdFont);
     font-weight: 400;
     align-items: center;
     display: flex;
@@ -217,18 +219,62 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
     height: 50%;
+    background-color: #ECECEC;
 }
+
+.accordion {
+    background-color: var(--lighterButton);
+    cursor: pointer;
+    padding: 18px;
+    font-weight: 450;
+    width: 100%;
+    font-size: 1.75rem;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: var(--thirdFont);
+    display: flex;
+    justify-content: space-between;
+}
+
+.active, .accordion:hover {
+    background-color: var(--evenLighter);
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.2) 2.4px 2.4px 3.2px;
+  }
+
+  .accordion::after {
+    content: '\25be'; 
+    font-size: 2rem;
+    color: black;
+    margin-left: 5px;
+  }
+  
+  .active::after {
+    content: '\25b4'; 
+  }
+
 
 button {
     background-color: var(--buttonColor);
     padding: 0.75rem;
     font-size: 1.5rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid var(--evenLighter);
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2.8px;
+    
 }
 
 button:hover {
     box-shadow: rgba(0, 0, 0, 0.2) 2.4px 2.4px 3.2px;
-    background-color: white;
+    background-color: var(--evenLighter);
 }
 
 .buttonRow {
@@ -253,7 +299,7 @@ button:hover {
 footer {
     background-color: var(--lighterButton);
     font-size: 1.5rem;
-    font-family: var(--secondFont);
+    font-family: var(--thirdFont);
     padding: 0.5rem 0 0.5rem 2.5rem;
     font-weight: 400;
 }
@@ -264,11 +310,12 @@ footer {
 }
 
 .contact h5 {
-    margin-top: 2rem;
-    margin-bottom: 2.5rem; 
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem; 
     font-size: 3rem;
-    font-family: var(--secondFont);
+    font-family: var(--thirdFont);
     font-weight: 500;
+    line-height: 120%;
 }
 
 span {
@@ -278,7 +325,7 @@ span {
 .linkedInText:hover {
     text-decoration: underline;
     text-decoration-color: var(--backgroundColor);
-    background-color: white;
+    background-color: var(--evenLighter);
 }
 
 .email {
@@ -302,6 +349,7 @@ a[href="https://www.linkedin.com/in/gabriel-rowan-585619233/"] {
 .copyrightSection {
     background-color:var(--lighterButton);
 }
+
 
 
 @media only screen and (max-width: 1250px){
